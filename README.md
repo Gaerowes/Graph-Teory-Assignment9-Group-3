@@ -10,8 +10,8 @@ Implementation of Planarity Checking Algorithms for the Graph Theory course at I
 
 | Name | Student ID |
 |---|---|
-| Dzulfiqar Rafi'ussunnah | 5025251011 |
 | Padhang Abiyu Fikri | 5025251014 |
+| Dzulfiqar Rafi'ussunnah | 5025251011 |
 | Aditya Lingga Mardika | 5025251158 |
 | Muhammad Faris Alfarrel | 5025251002 |
 
@@ -25,7 +25,7 @@ A **Planar Graph** is a graph that can be drawn on a plane such that no two edge
 
 The algorithms implemented in this project are:
 
-### 2.1 [First Algorithm Name]
+### 2.1 Demoucron–Malgrange–Pertuiset (DMP) Algorithm
 
 [Insert the name of the first planarity checking algorithm.]
 
