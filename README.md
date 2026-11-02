@@ -109,7 +109,7 @@ Example:
 ### 4.3 Run the First Algorithm
 
 ```bash
-python [first_algorithm].py < input.txt
+ python dmp.py k5.txt 
 ```
 
 ### 4.4 Run the Second Algorithm
