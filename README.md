@@ -163,7 +163,8 @@ The following section presents the execution results of the implemented algorith
 
 **Execution Screenshot:**
 
-![First Algorithm Result](images/first_algorithm_result.png)
+<img width="414" height="45" alt="image" src="https://github.com/user-attachments/assets/781df20f-18b6-4868-a185-0add08f50d5d" />
+
 
 ### 6.2 Left-Right Planarity Testing Algorithm
 
