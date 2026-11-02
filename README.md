@@ -158,7 +158,7 @@ The following section presents the execution results of the implemented algorith
 **Sample Output:**
 
 ```text
-[Insert sample output here]
+NON-PLANAR
 ```
 
 **Execution Screenshot:**
