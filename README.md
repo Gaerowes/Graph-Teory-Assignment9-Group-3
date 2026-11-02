@@ -31,7 +31,11 @@ The algorithms implemented in this project are:
 
 **Short Explanation:**
 
-[Explain how the algorithm determines whether a graph is planar. Describe its main steps, approach, and how it identifies or constructs a planar embedding.]
+The Demoucron–Malgrange–Pertuiset (DMP) Algorithm is a graph planarity testing algorithm that determines whether a graph can be embedded in a plane without edge crossings.
+
+The algorithm works by gradually constructing a planar embedding of the graph. It starts by selecting an arbitrary cycle from the graph and then identifies the remaining parts (fragments) that have not yet been included in the embedding. For each fragment, the algorithm identifies its contact vertices and determines which faces can accommodate it without creating edge crossings. These faces are called admissible faces.
+
+The algorithm then selects a path connecting two contact vertices of a fragment and inserts that path into an admissible face. This process is repeated until all edges have been included. If a fragment has no admissible face, the graph is determined to be non-planar. Otherwise, if all fragments are successfully embedded, the graph is planar.
 
 ### 2.2 Left-Right Planarity Testing Algorithm
 
