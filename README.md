@@ -61,15 +61,7 @@ The following software and tools are required to run the implementations:
 
 ### Dependencies
 
-[Insert the required libraries and installation instructions.]
-
-Example:
-
-```bash
-pip install -r requirements.txt
-```
-
-If no external libraries are required, state that the implementation uses only standard libraries.
+the implementation uses only standard libraries.
 
 ---
 
@@ -98,7 +90,16 @@ The input should contain the number of vertices, the number of edges, and the ed
 Example:
 
 ```text
-[Insert sample input here]
+0 1
+0 2
+0 3
+0 4
+1 2
+1 3
+1 4
+2 3
+2 4
+3 4
 ```
 
 ### 4.3 Run the First Algorithm
@@ -113,7 +114,6 @@ python [first_algorithm].py < input.txt
 python planarity_lr.py k5.txt
 ```
 
-**Note:** Replace the script names and input format according to the actual implementation.
 
 ---
 
@@ -124,16 +124,24 @@ The following input is used to demonstrate the execution of the implemented algo
 ### Sample Input
 
 ```text
-[Insert sample input here]
+0 1
+0 2
+0 3
+0 4
+1 2
+1 3
+1 4
+2 3
+2 4
+3 4
 ```
 
 ### Expected Result
 
 ```text
-[Insert expected result here]
+The result indicates whether the input graph is planar or non-planar.
 ```
 
-The result indicates whether the input graph is planar or non-planar.
 
 ---
 
@@ -153,17 +161,18 @@ The following section presents the execution results of the implemented algorith
 
 ![First Algorithm Result](images/first_algorithm_result.png)
 
-### 6.2 [Second Algorithm Name]
+### 6.2 Left-Right Planarity Testing Algorithm
 
 **Sample Output:**
 
 ```text
-[Insert sample output here]
+NON-PLANAR
 ```
 
 **Execution Screenshot:**
 
-![Second Algorithm Result](images/second_algorithm_result.png)
+<img width="650" height="87" alt="image" src="https://github.com/user-attachments/assets/b601424c-7c7a-4a32-8857-c8444fee287c" />
+
 
 ---
 
@@ -190,4 +199,3 @@ The project provides an opportunity to understand graph planarity and the applic
 
 ---
 
-**Informatics ITS Graph Theory Class — Group 3**
