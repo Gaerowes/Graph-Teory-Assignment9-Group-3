@@ -33,15 +33,21 @@ The algorithms implemented in this project are:
 
 [Explain how the algorithm determines whether a graph is planar. Describe its main steps, approach, and how it identifies or constructs a planar embedding.]
 
-### 2.2 [Second Algorithm Name]
+### 2.2 Left-Right Planarity Testing Algorithm
 
-[Insert the name of the second planarity checking algorithm.]
+The Left-Right Planarity Testing Algorithm determines whether a graph is planar by analyzing the relative positions of edges during a depth-first search (DFS).
 
-**Short Explanation:**
+The algorithm uses a DFS tree and maintains constraints that describe the relative left-right ordering of edges.
 
-[Explain how the second algorithm determines whether a graph is planar. Describe its main steps, approach, and how it differs from the first algorithm.]
+The main steps are:
 
-**Note:** The implemented algorithms must be different from Kuratowski's Theorem and Narsingh Deo's Elementary Reduction.
+1. Perform a depth-first search (DFS) on the graph.
+2. Construct a DFS tree and identify back edges.
+3. Calculate the low-point values of vertices.
+4. Process the edges in a specific order while maintaining left-right constraints.
+5. Test whether the constraints can be satisfied without creating edge crossings.
+
+If the constraints are consistent, the graph is planar. Otherwise, the graph is non-planar.
 
 ---
 
