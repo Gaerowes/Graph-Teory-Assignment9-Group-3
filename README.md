@@ -110,7 +110,7 @@ python [first_algorithm].py < input.txt
 ### 4.4 Run the Second Algorithm
 
 ```bash
-python [second_algorithm].py < input.txt
+python planarity_lr.py k5.txt
 ```
 
 **Note:** Replace the script names and input format according to the actual implementation.
