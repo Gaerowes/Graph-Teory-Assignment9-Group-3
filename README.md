@@ -25,7 +25,7 @@ A **Planar Graph** is a graph that can be drawn on a plane such that no two edge
 
 The algorithms implemented in this project are:
 
-### 2.1 Demoucron–Malgrange–Pertuiset (DMP) Algorithm
+### 2.1 Demoucron Malgrange Pertuiset (DMP) Algorithm
 
 [Insert the name of the first planarity checking algorithm.]
 
@@ -153,7 +153,7 @@ The result indicates whether the input graph is planar or non-planar.
 
 The following section presents the execution results of the implemented algorithms.
 
-### 6.1 [First Algorithm Name]
+### 6.1 Demoucron Malgrange Pertuiset (DMP) Algorithm
 
 **Sample Output:**
 
